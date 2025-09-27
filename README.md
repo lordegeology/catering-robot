@@ -2,7 +2,7 @@
 =======
 <<<<<<< HEAD
 # catering-robot
-Catering Robot Project for the Course Project: BITS F327 Artificial Intelligence for Robotics from my time at BITS!
+Catering Robot Project for the Course Project: BITS-F327 Artificial Intelligence for Robotics from my time at BITS!
 
 
 =======
