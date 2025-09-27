@@ -114,6 +114,8 @@ This project simulates a catering robot navigating a grid environment using dyna
   - `pandas`
   - `condacolab`
 
+---
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
