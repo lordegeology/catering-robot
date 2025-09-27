@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# catering-robot
+Catering Robot Project for the Course Project: BITS F327 Artificial Intelligence for Robotics from my time at BITS!
+
+
+=======
+>>>>>>> f8ab12f (Initial commit)
 # Catering Robot Simulation with Path Planning and SLAM
 
 This project simulates a catering robot navigating a grid environment using dynamic path planning (D* Lite) and performing Simultaneous Localization and Mapping (SLAM) with Fast SLAM. The robot is designed to deliver items to specific locations while avoiding obstacles in a simulated environment.
@@ -121,4 +130,10 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Acknowledgments
 
 - [RobotSim373](https://github.com/bblais/RobotSim373) for robot simulation.
+<<<<<<< HEAD
 - [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) for SLAM implementation.
+=======
+- [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) for SLAM implementation.
+- PS - Thanks to my friend Ayush for helping out with this!
+>>>>>>> ccd9a1d (Initial commit)
+>>>>>>> f8ab12f (Initial commit)
