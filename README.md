@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-# catering-robot
-Catering Robot Project for the Course Project: BITS-F327 Artificial Intelligence for Robotics from my time at BITS!
-
-
-=======
->>>>>>> f8ab12f (Initial commit)
 # Catering Robot Simulation with Path Planning and SLAM
 
 This project simulates a catering robot navigating a grid environment using dynamic path planning (D* Lite) and performing Simultaneous Localization and Mapping (SLAM) with Fast SLAM. The robot is designed to deliver items to specific locations while avoiding obstacles in a simulated environment.
@@ -53,35 +44,45 @@ This project simulates a catering robot navigating a grid environment using dyna
    ```bash
    git clone https://github.com/your-repo/catering-robot.git
    cd catering-robot
+   ```
 
-2. pip install box2d
-    pip install "git+https://github.com/bblais/RobotSim373" --upgrade
-    pip install -r PythonRobotics/requirements/requirements.txt
+2. Install dependencies:
+   ```bash
+   pip install box2d
+   pip install "git+https://github.com/bblais/RobotSim373" --upgrade
+   pip install -r PythonRobotics/requirements/requirements.txt
+   ```
 
-3. !pip install -q condacolab
-    import condacolab
-    condacolab.install()
+3. Install Conda environment (optional):
+   ```python
+   !pip install -q condacolab
+   import condacolab
+   condacolab.install()
+   ```
 
 ---
 
 ## Usage
-- Open the Jupyter Notebook catering_robot_final.ipynb in your preferred IDE or Jupyter - environment.
-- Run the cells sequentially to:
-- Build the robot and environment.
-- Simulate the robot's movement and path planning.
-- Perform SLAM and save results.
-- Visualize the robot's estimated and true positions.
+
+1. Open the Jupyter Notebook `catering_robot_final.ipynb` in your preferred IDE or Jupyter environment.
+2. Run the cells sequentially to:
+   - Build the robot and environment.
+   - Simulate the robot's movement and path planning.
+   - Perform SLAM and save results.
+   - Visualize the robot's estimated and true positions.
 
 ---
 
 ## Outputs
 
 ### Simulation Plots:
-    - Visualizes the robot's path, obstacles, and environment.
+- Visualizes the robot's path, obstacles, and environment.
+
 ### SLAM Data:
-    - Saves SLAM results to projectslamvaluesfinal3.csv.
+- Saves SLAM results to `projectslamvaluesfinal3.csv`.
+
 ### SLAM Plots:
-    - Saves SLAM visualization plots in the newplots4 directory.
+- Saves SLAM visualization plots in the `newplots4` directory.
 
 ---
 
@@ -130,10 +131,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Acknowledgments
 
 - [RobotSim373](https://github.com/bblais/RobotSim373) for robot simulation.
-<<<<<<< HEAD
 - [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) for SLAM implementation.
-=======
-- [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) for SLAM implementation.
-- PS - Thanks to my friend Ayush for helping out with this!
->>>>>>> ccd9a1d (Initial commit)
->>>>>>> f8ab12f (Initial commit)
+- Special thanks to my friend Ayush for helping out with this!
